@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Vista previa del proyecto 2">
+  <defs>
+    <linearGradient id="c2-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1628"/>
+      <stop offset="1" stop-color="#12263f"/>
+    </linearGradient>
+    <linearGradient id="c2-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f0b429"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#c2-bg)"/>
+
+  <!-- ventana -->
+  <rect x="60" y="54" width="680" height="342" rx="14" fill="#0e1e33" stroke="#1e3a5f" stroke-width="2"/>
+  <rect x="60" y="54" width="680" height="42" rx="14" fill="#16304d"/>
+  <rect x="60" y="82" width="680" height="14" fill="#16304d"/>
+  <circle cx="88" cy="75" r="6" fill="#f87171"/>
+  <circle cx="110" cy="75" r="6" fill="#f0b429"/>
+  <circle cx="132" cy="75" r="6" fill="#22c55e"/>
+
+  <!-- cabecera de tienda -->
+  <rect x="90" y="116" width="180" height="16" rx="8" fill="url(#c2-accent)"/>
+  <rect x="560" y="116" width="70" height="16" rx="8" fill="#1e3a5f"/>
+  <rect x="646" y="116" width="60" height="16" rx="8" fill="#1e3a5f"/>
+
+  <!-- productos -->
+  <g>
+    <rect x="90" y="158" width="196" height="140" rx="12" fill="#12263f" stroke="#1e3a5f"/>
+    <rect x="110" y="178" width="156" height="72" rx="8" fill="#16304d"/>
+    <rect x="110" y="262" width="110" height="11" rx="5.5" fill="#264a75"/>
+    <rect x="110" y="280" width="66" height="11" rx="5.5" fill="#f0b429"/>
+  </g>
+  <g>
+    <rect x="302" y="158" width="196" height="140" rx="12" fill="#12263f" stroke="#1e3a5f"/>
+    <rect x="322" y="178" width="156" height="72" rx="8" fill="#16304d"/>
+    <rect x="322" y="262" width="110" height="11" rx="5.5" fill="#264a75"/>
+    <rect x="322" y="280" width="66" height="11" rx="5.5" fill="#22d3ee"/>
+  </g>
+  <g>
+    <rect x="514" y="158" width="196" height="140" rx="12" fill="#12263f" stroke="#1e3a5f"/>
+    <rect x="534" y="178" width="156" height="72" rx="8" fill="#16304d"/>
+    <rect x="534" y="262" width="110" height="11" rx="5.5" fill="#264a75"/>
+    <rect x="534" y="280" width="66" height="11" rx="5.5" fill="#f0b429"/>
+  </g>
+
+  <!-- carrito / footer -->
+  <rect x="90" y="322" width="404" height="46" rx="10" fill="#12263f" stroke="#1e3a5f"/>
+  <rect x="112" y="340" width="150" height="10" rx="5" fill="#264a75"/>
+  <rect x="514" y="322" width="196" height="46" rx="10" fill="#f0b429"/>
+  <rect x="546" y="340" width="132" height="10" rx="5" fill="#1a1203" opacity=".75"/>
+
+  <text x="400" y="424" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="700" fill="#a8b8cc">Sustituye esta imagen por tu captura</text>
+</svg>
