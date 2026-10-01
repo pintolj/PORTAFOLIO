@@ -829,6 +829,11 @@ body::before{
   list-style:none;
   background:var(--border);
 }
+/* Galería con más miniaturas: 5 por fila (2 filas de 5) */
+.gallery--thumbs-5 .gallery__thumbs{ grid-template-columns:repeat(5, 1fr); }
+/* Capturas casi cuadradas (1440x~1000-1500): encuadre 4:3 en vez de 16:9 */
+.gallery--ratio-43 .gallery__viewport{ aspect-ratio:4 / 3; }
+.gallery--ratio-43 .gallery__thumb img{ aspect-ratio:4 / 3; }
 .gallery__thumb{
   position:relative;
   display:block;
@@ -903,6 +908,7 @@ body::before{
   display:flex;
   flex-wrap:wrap;
   gap:.4rem;
+  margin-top:auto;
   padding-top:.35rem;
 }
 .project__tags li{

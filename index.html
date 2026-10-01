@@ -525,7 +525,7 @@
             <li>JavaScript</li>
             <li>Node.js</li>
             <li>Express</li>
-            <li>PostgreSQL</li>
+            <li>Supabase</li>
           </ul>
         </article>
 
@@ -614,13 +614,162 @@
             <li>React</li>
             <li>Tailwind CSS</li>
             <li>Node.js</li>
-            <li>MongoDB</li>
+            <li>Supabase</li>
+          </ul>
+        </article>
+
+        <!-- PROYECTO 3 -->
+        <article class="project reveal">
+
+          <!-- =====================================================
+               GALERÍA DEL PROYECTO
+               Para añadir una imagen: copia un <li class="gallery__slide">
+               y su miniatura en .gallery__thumbs (mismo src y alt).
+               ===================================================== -->
+          <div class="gallery gallery--thumbs-5 gallery--ratio-43" data-gallery>
+            <div class="gallery__viewport">
+              <ul class="gallery__slides">
+                <li class="gallery__slide is-active">
+                  <img src="assets/screenshots/resumen-oscuro.webp" width="1440" height="1514" loading="lazy"
+                       alt="Resumen de Cénit en tema oscuro con balance disponible, flujo de caja y asignación del patrimonio"
+                       data-i18n-alt="proj.p3.img1">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/cartera-oscuro.webp" width="1440" height="1003" loading="lazy"
+                       alt="Vista Cartera de Cénit en tema oscuro con posiciones y asignación por clase"
+                       data-i18n-alt="proj.p3.img2">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/saas-oscuro.webp" width="1440" height="1464" loading="lazy"
+                       alt="Vista SaaS de Cénit en tema oscuro con MRR, churn y base de clientes"
+                       data-i18n-alt="proj.p3.img3">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/movimientos-oscuro.webp" width="1440" height="1014" loading="lazy"
+                       alt="Vista Movimientos de Cénit en tema oscuro con filtros y tabla de operaciones"
+                       data-i18n-alt="proj.p3.img4">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/ajustes-oscuro.webp" width="1440" height="900" loading="lazy"
+                       alt="Vista Ajustes de Cénit en tema oscuro con preferencias y datos simulados"
+                       data-i18n-alt="proj.p3.img5">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/resumen-claro.webp" width="1440" height="1514" loading="lazy"
+                       alt="Resumen de Cénit en tema claro con KPIs y gráficas de rendimiento"
+                       data-i18n-alt="proj.p3.img6">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/cartera-claro.webp" width="1440" height="1003" loading="lazy"
+                       alt="Vista Cartera de Cénit en tema claro con posiciones y evolución de precios"
+                       data-i18n-alt="proj.p3.img7">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/saas-claro.webp" width="1440" height="1464" loading="lazy"
+                       alt="Vista SaaS de Cénit en tema claro con ingresos recurrentes y fuentes de ingreso"
+                       data-i18n-alt="proj.p3.img8">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/movimientos-claro.webp" width="1440" height="1014" loading="lazy"
+                       alt="Vista Movimientos de Cénit en tema claro con ingresos, gastos y operaciones de trading"
+                       data-i18n-alt="proj.p3.img9">
+                </li>
+                <li class="gallery__slide">
+                  <img src="assets/screenshots/ajustes-claro.webp" width="1440" height="900" loading="lazy"
+                       alt="Vista Ajustes de Cénit en tema claro con apariencia, moneda y semilla del dataset"
+                       data-i18n-alt="proj.p3.img10">
+                </li>
+              </ul>
+
+              <button class="gallery__arrow gallery__arrow--prev" type="button"
+                      aria-label="Imagen anterior" data-i18n-aria="gallery.prev">
+                <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <button class="gallery__arrow gallery__arrow--next" type="button"
+                      aria-label="Imagen siguiente" data-i18n-aria="gallery.next">
+                <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+
+              <p class="gallery__counter" aria-live="polite">
+                <span data-gallery-current>1</span>/<span data-gallery-total>10</span>
+              </p>
+
+              <button class="gallery__zoom" type="button"
+                      aria-label="Ver imagen en grande" data-i18n-aria="gallery.zoom">
+                <svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg>
+              </button>
+            </div>
+
+            <ul class="gallery__thumbs">
+              <li><button class="gallery__thumb is-active" type="button" aria-current="true"
+                          aria-label="Ver imagen 1" data-i18n-aria="gallery.see1">
+                <img src="assets/screenshots/resumen-oscuro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 2" data-i18n-aria="gallery.see2">
+                <img src="assets/screenshots/cartera-oscuro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 3" data-i18n-aria="gallery.see3">
+                <img src="assets/screenshots/saas-oscuro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 4" data-i18n-aria="gallery.see4">
+                <img src="assets/screenshots/movimientos-oscuro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 5" data-i18n-aria="gallery.see5">
+                <img src="assets/screenshots/ajustes-oscuro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 6" data-i18n-aria="gallery.see6">
+                <img src="assets/screenshots/resumen-claro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 7" data-i18n-aria="gallery.see7">
+                <img src="assets/screenshots/cartera-claro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 8" data-i18n-aria="gallery.see8">
+                <img src="assets/screenshots/saas-claro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 9" data-i18n-aria="gallery.see9">
+                <img src="assets/screenshots/movimientos-claro.webp" alt="" loading="lazy"></button></li>
+              <li><button class="gallery__thumb" type="button"
+                          aria-label="Ver imagen 10" data-i18n-aria="gallery.see10">
+                <img src="assets/screenshots/ajustes-claro.webp" alt="" loading="lazy"></button></li>
+            </ul>
+          </div>
+
+          <div class="project__top">
+            <span class="project__icon" aria-hidden="true">
+              <svg><use href="#i-code"/></svg>
+            </span>
+            <div class="project__links">
+              <a class="project__link" href="https://github.com/pintolj/cen-t" aria-label="Ver código de Cénit" data-i18n-aria="proj.p3.code">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>
+              </a>
+              <a class="project__link" href="https://pintolj.github.io/cen-t/" target="_blank" rel="noopener noreferrer" aria-label="Ver demo de Cénit" data-i18n-aria="proj.p3.demo">
+                <svg class="icon" aria-hidden="true"><use href="#i-external"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <h3 class="project__title" data-i18n="proj.p3.title">Cénit · Panel Analítico</h3>
+          <p class="project__desc" data-i18n="proj.p3.desc">
+            Panel analítico y financiero que unifica cripto, renta variable, finanzas personales
+            y métricas de un negocio SaaS en una sola interfaz. Cinco vistas —resumen, cartera,
+            SaaS, movimientos y ajustes— sobre un dataset determinista que se genera en el
+            navegador, sin backend ni servicios externos.
+          </p>
+
+          <ul class="project__tags">
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Vite</li>
+            <li>Tailwind CSS</li>
+            <li>Recharts</li>
           </ul>
         </article>
 
       </div>
     </div>
   </section>
+
+    
 
   <!-- ========================================================
        SKILLS
@@ -698,7 +847,7 @@
           </li>
           <li>
             <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>
-            <a href="https://github.com/javiersuarez" target="_blank" rel="noopener noreferrer">github.com/javiersuarez</a>
+            <a href="https://github.com/pintolj/JAVIERSUAREZ" target="_blank" rel="noopener noreferrer">github.com/javiersuarez</a>
           </li>
           <li>
             <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
