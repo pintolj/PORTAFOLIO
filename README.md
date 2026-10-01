@@ -88,4 +88,3 @@ El resultado es una página que carga en menos de un segundo, obtiene **100/100 
 
 ---
 
-## 📂 Estructura del proyecto
